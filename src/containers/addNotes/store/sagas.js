@@ -23,7 +23,7 @@ function* saveNotesSaga(action) {
   try {
     const response = yield call(
       axios.post,
-      process.env.NOTES_APP_FIREBASE_URL,
+      "https://react-notes-app-2024-91993-default-rtdb.firebaseio.com/notesList.json",
       createFinalNotesData,
       { headers: headerParams }
     );
