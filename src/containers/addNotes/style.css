@@ -1,0 +1,31 @@
+.add-new-note-wrapper {
+  margin-top: 20px;
+}
+
+.add-new-note-wrapper h1 {
+  margin: 0px;
+}
+
+.form-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.form-wrapper input {
+  padding: 10px 70px;
+}
+
+.form-wrapper button {
+  padding: 10px 50px;
+  background: black;
+  color: #ffdd08;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.form-wrapper button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
